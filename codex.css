@@ -1,0 +1,65 @@
+
+
+.space {
+  display: table;
+  width: 98.7vw;
+}
+
+.twine {
+  display: table-row;
+}
+
+.dark {
+  display: table-cell;
+}
+
+.light {
+  display: table-cell;
+}
+
+.window {
+  height: 97.7vh;
+}
+
+.elevator {
+  overflow: auto;
+
+  box-sizing: border-box;
+  height: 97.7vh;
+}
+
+.tower {
+  display: table;
+}
+
+.floor {
+  display: table-row;
+  height: 96px;
+
+}
+
+.room {
+  cursor: pointer;
+  display: table-cell;
+  width: 96px;
+  border:1px solid black;
+  border-bottom: 0;
+}
+
+.blocklink {
+  display: block;
+  height: 96px;
+  width: 96px;
+}
+
+.room:hover {
+  background-color: whitesmoke;
+}
+
+.room .day {
+  display: block;
+}
+
+.room .night {
+  display: none;
+}
