@@ -19,6 +19,7 @@
 
 .window {
   height: 97.7vh;
+  margin: 10px;
 }
 
 .elevator {
@@ -34,22 +35,19 @@
 
 .floor {
   display: table-row;
-  height: 96px;
-
 }
 
 .room {
   cursor: pointer;
   display: table-cell;
-  width: 96px;
   border:1px solid black;
   border-bottom: 0;
 }
 
 .blocklink {
   display: block;
-  height: 96px;
-  width: 96px;
+  height: 123px;
+  width: 123px;
 }
 
 .room:hover {
